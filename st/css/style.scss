@@ -25,6 +25,7 @@ $text-light-color: {{ site.data.settings.color_settings.text_light_color }};
 $accent-color: {{ site.data.settings.color_settings.accent_color }};
 
 $overlay-background-color: {{ site.data.settings.color_settings.overlay_background_color }};
+$overlay-text-bg-color: {{ site.data.settings.color_settings.overlay_text_bg_color }};
 $overlay-text-color: {{ site.data.settings.color_settings.overlay_text_color }};
 
 $error-color: {{ site.data.settings.color_settings.error_color }};
@@ -125,8 +126,8 @@ $overlay-opacity: {{ site.data.settings.header_settings.overlay_opacity }};
 
 
 // Logo
-$logo-width: {{ site.data.settings.header_settings.logo_width }}px;
-$footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
+$header-image-width: {{ site.data.settings.header_settings.header_image_width }};
+$footer-logo-width: {{ site.data.settings.footer_settings.header_image_width }}px;
 
 
 // Grid item

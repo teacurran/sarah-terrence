@@ -4,8 +4,8 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
-  logo_width: 200
+  header_image: /images/brick_house_painting.png
+  header_image_width: 100%
   overlay_opacity: 0.7
 
 menu_settings:
@@ -65,6 +65,7 @@ color_settings:
   accent_color: '#A2DED0'
   border_color: '#dddddd'
   overlay_background_color: '#161B21'
+  overlay_text_bg_color: '#000000'
   overlay_text_color: '#ffffff'
   error_color: '#D64541'
 

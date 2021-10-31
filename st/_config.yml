@@ -52,6 +52,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-google-photos
 
 paginate: 6
 paginate_path: "/blog/page:num/"

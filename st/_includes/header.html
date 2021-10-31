@@ -7,15 +7,15 @@
 
 	<div class="header__content">
 
-		{% if site.data.settings.header_settings.logo_image %}
+		{% if site.data.settings.header_settings.header_image %}
 		<a href="{{ site.baseurl }}/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+			<img src="{{ site.data.settings.header_settings.header_image | relative_url }}" class="header__logo__img">
 		</a>
-		{% else %}
+		{% endif %}
+
 		<a href="{{ site.baseurl }}/" class="header__title">
 			{{ site.data.settings.basic_settings.site_title }}
 		</a>
-		{% endif %}
 
 		<p class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</p>
 
