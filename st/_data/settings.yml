@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Journal
-  site_tagline: A stunning personal blog Jekyll theme with an image-focused design.
+  site_title: Mostly Cats
+  site_tagline: Dispatches of our life together.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -69,9 +69,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
-  title_font: '"Merriweather", sans-serif'
-  body_font: '"Muli", sans-serif'
+  # font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
+  title_font: 'Helvetica, sans-serif'
+  body_font: 'Helvetica, sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:
