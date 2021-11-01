@@ -24,6 +24,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+        working-directory: ./st
       - name: "Build Site"
         run: bundle exec jekyll build
         env:
