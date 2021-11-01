@@ -7,31 +7,14 @@ layout: default
 
 ---
 
-![](/images/demo/demo-landscape.jpg)
+<div class="gallery" data-columns="2">
+    <img src="/images/map_2021-11-01.png" />
+</div>
 
-## Features
+## The Property
 
-Journal is packed with powerful features to showcase your work:
+The property is about Terrence and I have been hiking nearly every day, and have been mapping and scouting the property.
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+Thus far, we’ve counted and mapped 50+ Apple Trees, that go all the way back- indi ating to us that the property was mostly clear-cut with pasture and apple trees all the way to the neighboring property- with trees seemingly lining the roads/ trails.
 
-## Get Index
-
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+Maple: Yesterday Terrence mapped the tap lines- seems like there are about 150 total trees tapped in the south east portion of the property
