@@ -4,9 +4,6 @@ url:
 baseurl: 
 
 collections:
-  pages:
-    output: true
-    permalink: /:name
   posts:
     output: true
     permalink: /post/:slug
@@ -49,6 +46,7 @@ sass:
   style: compressed
 
 plugins:
+  - jekyll-gallery-generator
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
@@ -56,4 +54,21 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  
+
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "photos"           # Title for gallery index page
+  title_prefix: "photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+
+  # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+    y: 400                  # max height of thumbnails (in pixels)
+
+  # The following options are for individual galleries.
+  galleries:
+    wedding:
+      best_image: IMG_0947.jpg
+      desc: 10.22.2021
