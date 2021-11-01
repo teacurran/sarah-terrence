@@ -6,13 +6,13 @@ baseurl:
 collections:
   posts:
     output: true
-    permalink: /post/:slug
+    permalink: /post/:slug.html
   winter:
     output: true
-    permalink: /winter/:slug
+    permalink: /winter/:slug.html
   summer:
     output: true
-    permalink: /summer/:slug
+    permalink: /summer/:slug.html
 
 defaults:
   -
