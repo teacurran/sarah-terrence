@@ -1,6 +1,6 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
+title: 'Clock'
+subtitle: 'Repair of 1946 IBM Clock'
 date: 2018-06-30 00:00:00
 featured_image: '/images/demo/demo-square.jpg'
 ---

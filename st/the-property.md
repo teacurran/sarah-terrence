@@ -1,9 +1,10 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+title: The Property
+subtitle: Our hillside in northern vermont
+description: Something about the property here
 featured_image: /images/demo/demo-portrait.jpg
 layout: default
+
 ---
 
 ![](/images/demo/demo-landscape.jpg)

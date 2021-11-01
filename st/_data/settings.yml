@@ -12,12 +12,16 @@ menu_settings:
   menu_items:
     - title: 'Latest'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'About'
-      url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    - title: 'Our Wedding'
+      url: '/wedding/'
+    - title: 'The House'
+      url: '/the-house/'
+    - title: 'The Property'
+      url: '/the-property'
+    - title: 'Winter Projects'
+      url: '/winter/'
+    - title: 'Summer Projects'
+      url: '/summer/'
 
 grid_settings:
   grid_spacing: 10

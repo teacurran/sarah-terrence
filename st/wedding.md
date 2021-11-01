@@ -4,8 +4,11 @@ title: Our Wedding
 permalink: /wedding/
 featured_image: /images/fall_background.png
 ---
+## Our Wedding
 
-<style TYPE="text/css">
+### 10-22-2021
+
+<style>
 .gallery-image-wrapper {
   height: 300px;
   width: 300px;
