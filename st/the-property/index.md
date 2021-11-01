@@ -3,15 +3,13 @@ title: The Property
 subtitle: Our hillside in northern vermont
 description: Something about the property here
 featured_image: /images/demo/demo-portrait.jpg
-layout: default
+layout: page
 
 ---
 
 <div class="gallery" data-columns="2">
     <img src="/images/map_2021-11-01.png" />
 </div>
-
-## The Property
 
 The property is about Terrence and I have been hiking nearly every day, and have been mapping and scouting the property.
 

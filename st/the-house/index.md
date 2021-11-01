@@ -3,13 +3,11 @@ title: The House
 subtitle: Our hillside in northern vermont
 description: Something about the property here
 featured_image: /images/demo/demo-portrait.jpg
-layout: default
+layout: page
 
 ---
 
 ![](/images/house_summer_2021.jpg)
-
-## The House
 
 We are currently living in a 200 year old farmhouse in Groton, Vermont. Terrence began looking at properties the summer of 2020, and on January 6th, 2021 closed on this property in Vermont.
 
