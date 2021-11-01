@@ -1,3 +1,7 @@
+variable "site" {
+  default = "mostlycats"
+}
+
 variable "environment" {
   default = "production"
 }
