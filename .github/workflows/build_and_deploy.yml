@@ -25,6 +25,7 @@ jobs:
         with:
           bundler-cache: true
         working-directory: ./st
+        run: bundle exec rake
       - name: "Build Site"
         run: bundle exec jekyll build
         env:
