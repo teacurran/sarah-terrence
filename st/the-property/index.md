@@ -11,8 +11,12 @@ layout: page
     <img src="/images/map_2021-11-01.png" />
 </div>
 
-The property is about Terrence and I have been hiking nearly every day, and have been mapping and scouting the property.
+The property is 42 acres, primarily wooded with about 2 acres flat and clear surrounding the house. 
 
-Thus far, we’ve counted and mapped 50+ Apple Trees, that go all the way back- indi ating to us that the property was mostly clear-cut with pasture and apple trees all the way to the neighboring property- with trees seemingly lining the roads/ trails.
+Terrence and I have been hiking nearly every day, and have been scouting and mapping the property. 
 
-Maple: Yesterday Terrence mapped the tap lines- seems like there are about 150 total trees tapped in the south east portion of the property
+Thus far, we’ve counted 50+ apple trees that extend to the back property line. Based on the density, type, and ages of the trees, it seems likely that the property was mostly clear cut with pasture and apple trees all the way to the neighboring property- with apple trees lining what were once roads/ trails. 
+
+Terrence mapped the tap lines- seems like there are about 150 total trees tapped in the south east and central portion of the property. 
+
+We’ve hired Todd Parlo from [Waldon Heights Orchards](https://waldenheightsnursery.com/) as a mentor. See [the detailed](/docs/SiteReport_2021.pdf) property report for specifics on the soil type, elevation and more.  
