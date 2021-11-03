@@ -13,7 +13,7 @@ layout: page
 
 The property is 42 acres, primarily wooded with about 2 acres flat and clear surrounding the house. 
 
-Terrence and I have been hiking nearly every day, and have been scouting and mapping the property. 
+Terrence and I have been hiking nearly every day, and have been scouting and mapping the property- working on trail maintenance, trash removal/ cleanup and marking trails. 
 
 Thus far, we’ve counted 50+ apple trees that extend to the back property line. Based on the density, type, and ages of the trees, it seems likely that the property was mostly clear cut with pasture and apple trees all the way to the neighboring property- with apple trees lining what were once roads/ trails. 
 
