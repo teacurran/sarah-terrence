@@ -7,12 +7,9 @@ collections:
   posts:
     output: true
     permalink: /post/:slug.html
-  winter:
+  projects:
     output: true
-    permalink: /winter/:slug.html
-  summer:
-    output: true
-    permalink: /summer/:slug.html
+    permalink: /projects/:slug.html
 
 defaults:
   -
@@ -35,7 +32,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "winter"
+      type: "projects"
     values:
       layout: "project"
   -

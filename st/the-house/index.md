@@ -1,7 +1,7 @@
 ---
 title: The House
-subtitle: Our hillside in Vermont's Northeast Kingdom 
-description: Something about the property here
+subtitle: The Brick House of Groton 
+description: The Brick House of Groton built by Robert Taisey in 1840.
 featured_image: /images/bg_backyard_aerial_summer_2021.jpg
 layout: page
 
@@ -11,9 +11,9 @@ layout: page
 
 We are currently living in a 200 year old farmhouse in Groton, Vermont. Terrence began looking at properties the summer of 2020, and on January 6th, 2021 closed on this property in Vermont.
 
-The brick house was built by Robert Taisey in 1840, the barn shortly thereafter. The White House was built by Robert Taisey’s son George in 1880s.
+The brick house was built by Robert Taisey in 1840, the barn shortly thereafter. The White House was built by Robert Taisey’s son George in 1881.
 
-We’ve made ourselves quite cozy in the brick house. There are a few big projects (modernizing the kitchen, refreshing the bathrooms and also infrastructure work like electric/plumbing and basement cleanout.
+We’ve made ourselves quite cozy in the brick house. There are a few big projects (modernizing the kitchen, refreshing the bathrooms and also infrastructure work like electric/plumbing and basement clean-out.
 
 The barn and white house will require some structural work, with the White House needing major interior renovation (been abandoned for quite some time).
 
