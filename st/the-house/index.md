@@ -2,7 +2,7 @@
 title: The House
 subtitle: The Brick House of Groton 
 description: The Brick House of Groton built by Robert Taisey in 1840.
-featured_image: /images/bg_backyard_aerial_summer_2021.jpg
+featured_image: /images/bg_flower.jpg
 layout: page
 
 ---

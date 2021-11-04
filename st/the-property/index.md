@@ -2,7 +2,7 @@
 title: The Property
 subtitle: Our hillside in Vermont's Northeast Kingdom
 description: Something about the property here
-featured_image: /images/bg_appletree_spring_2021.jpg
+featured_image: /images/bg_backyard_aerial_summer_2021.jpg
 layout: page
 
 ---
