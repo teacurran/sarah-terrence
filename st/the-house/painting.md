@@ -7,4 +7,4 @@ layout: default
 no_header: true
 ---
 
-<a href="{{ site.baseurl }}/"><img src="/images/brick_house_painting.png"></a>
+<a href="{{ site.baseurl }}/" class="js-no-ajax"><img src="/images/brick_house_painting.png"></a>
