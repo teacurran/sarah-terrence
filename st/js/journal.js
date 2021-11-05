@@ -91,50 +91,50 @@
 
 	if ( $('body').hasClass('ajax-loading') ) {
 
-		$(document).on('click', 'a', function (event){
-
-			// Don't follow link
-			event.preventDefault();
-
-			// Get the link target
-			var thisTarget = $(this).attr('href');
-
-			// If we don't want to use ajax, or the link is an anchor/mailto/tel
-			if ( $(this).hasClass('js-no-ajax')
-				|| thisTarget.indexOf('#') >= 0
-				|| thisTarget.indexOf('mailto:') >= 0
-				|| thisTarget.indexOf('tel:') >= 0
-				|| thisTarget.indexOf('.pdf') >= 0 ) {
-
-				// Use the given link
-				window.location = thisTarget;
-			}
-
-			// If link is handled by some JS action – e.g. fluidbox
-			else if ( $(this).is('.gallery__item__link') ) {
-				
-				// Let JS handle it
-			}
-
-			// If link is external
-			else if ( thisTarget.indexOf('http') >= 0 ) {
-
-				// Go to the external link
-				window.open(thisTarget, '_blank');
-
-			}
-
-			// If link is internal
-			else {
-
-				// Change navTarget
-				navTarget = thisTarget;
-				
-				// Switch the URL via History
-				History.pushState(null, docTitle, thisTarget);
-			}
-
-		});
+		// $(document).on('click', 'a', function (event){
+		//
+		// 	// Don't follow link
+		// 	event.preventDefault();
+		//
+		// 	// Get the link target
+		// 	var thisTarget = $(this).attr('href');
+		//
+		// 	// If we don't want to use ajax, or the link is an anchor/mailto/tel
+		// 	if ( $(this).hasClass('js-no-ajax')
+		// 		|| thisTarget.indexOf('#') >= 0
+		// 		|| thisTarget.indexOf('mailto:') >= 0
+		// 		|| thisTarget.indexOf('tel:') >= 0
+		// 		|| thisTarget.indexOf('.pdf') >= 0 ) {
+		//
+		// 		// Use the given link
+		// 		window.location = thisTarget;
+		// 	}
+		//
+		// 	// If link is handled by some JS action – e.g. fluidbox
+		// 	else if ( $(this).is('.gallery__item__link') ) {
+		//
+		// 		// Let JS handle it
+		// 	}
+		//
+		// 	// If link is external
+		// 	else if ( thisTarget.indexOf('http') >= 0 ) {
+		//
+		// 		// Go to the external link
+		// 		window.open(thisTarget, '_blank');
+		//
+		// 	}
+		//
+		// 	// If link is internal
+		// 	else {
+		//
+		// 		// Change navTarget
+		// 		navTarget = thisTarget;
+		//
+		// 		// Switch the URL via History
+		// 		History.pushState(null, docTitle, thisTarget);
+		// 	}
+		//
+		// });
 
 	}
 
