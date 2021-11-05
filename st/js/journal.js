@@ -207,7 +207,7 @@
 			$this.imagesLoaded( function() {
 
 				// If it's a single column gallery
-				if ( galleryCols === '1' ) {
+				if ( galleryCols === '-1' ) {
 
 					// Add carousel class to gallery
 					$this.addClass('gallery--carousel');
