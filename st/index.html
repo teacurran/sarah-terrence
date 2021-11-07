@@ -7,7 +7,7 @@ featured_image: /images/fall_background.png
 
 <div class="post-list">
 	{% for post in site.posts limit: 10 %}
-		<section class="blog-post">
+		<section class="blog-post single">
 			<h2>{{ post.title }}</h2>
 			<p class="meta">{{ post.date | date_to_string }}</p>
 
