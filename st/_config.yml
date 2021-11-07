@@ -67,7 +67,7 @@ gallery:
   title: "photos"           # Title for gallery index page
   title_prefix: "photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
   sort_field: "name"        # How to sort galleries on the index page.
-  default_image_sort:       "name"
+  default_image_sort:       "naturalized"
 
   # Possible values are: title, date_time, best_image
   thumbnail_size:
