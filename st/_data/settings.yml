@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Mostly Cats
   site_tagline: Dispatches from our life together.
-  favicon_image: /images/favicon.png
+  favicon_image: /images/favicon.ico
 
 header_settings:
   header_image: /images/brick_house_painting.png
