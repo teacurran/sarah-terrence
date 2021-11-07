@@ -63,11 +63,11 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 75%;
+			max-width: 80%;
 		}
 
 		@include mq(desktop) {
-			max-width: 70%;
+			max-width: 80%;
 		}
 	}
 
