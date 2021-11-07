@@ -65,6 +65,8 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    nokogiri (1.12.5-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     open-uri (0.2.0)
@@ -94,6 +96,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-20
   x86_64-darwin-20
 
 DEPENDENCIES

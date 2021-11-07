@@ -16,8 +16,8 @@ menu_settings:
       url: '/wedding/'
     - title: 'The House'
       url: '/the-house/'
-    - title: 'The Property'
-      url: '/the-property'
+    - title: 'The Homestead'
+      url: '/the-homestead'
     - title: 'Projects'
       url: '/projects/'
 

@@ -1,7 +1,7 @@
 ---
 title: The House
 subtitle: The Brick House of Groton 
-description: The Brick House of Groton built by Robert Taisey in 1840.
+description: The Brick House of Groton circa 1840.
 featured_image: /images/bg_flower.jpg
 layout: page
 
@@ -9,15 +9,18 @@ layout: page
 
 ![](/images/house_summer_2021.jpg)
 
-We are currently living in a 200 year old farmhouse in Groton, Vermont. Terrence began looking at properties the summer of 2020, and on January 6th, 2021 closed on this property in Vermont.
+Terrence began looking at properties the summer of 2020, and on January 6th, 2021 closed on this property in Vermont. 
 
-The brick house was built by Robert Taisey in 1840, the barn shortly thereafter. The White House was built by Robert Taisey’s son George in 1881.
+The property has 3 distinct buildings: The brick house, the white house, and the barn, which joins the two buildings. 
 
-We’ve made ourselves quite cozy in the brick house. There are a few big projects (modernizing the kitchen, refreshing the bathrooms and also infrastructure work like electric/plumbing and basement clean-out.
+The brick house was built by John Taisey in 1840, the barn shortly thereafter. The white house was built by John’s son, George, in 1881. 
 
-The barn and white house will require some structural work, with the White House needing major interior renovation (been abandoned for quite some time).
+We’ve made ourselves quite cozy in the brick house. There are a few big projects (modernizing the kitchen, refreshing the bathrooms and also infrastructure work like electric/plumbing, chimney repairs, and basement cleanout). 
 
-The Historical Society of Groton has been a great resource for learning about the history of the house and the town. I attended their Late summer open house and got to talking with President of the Historical Society. When I shared I lived in Groton in the brick house, the President of the Historical society got very excited and showed me the painting of our house that is part of their collection. She also shared with me the file on our house, entitled, “The Brick House of Groton”
+The barn and white house will require some structural work, with the white house needing major interior renovations (been abandoned for quite some time). Parts of the barn have been converted into interior living space- and so there’s also some challenges with the heating system (currently oil).  
 
-The painting revealed some key information about the property, and reinforced the importance of taking a deeper look at the white house and its construction. To be honest, my first impression of both was that they needed to be torn down. After some online sleuthing and a thorough inspection of the interiors, we have changed our minds. The story of the house and it’s owners is rich, and we look forward to sharing more as we document our findings.
+The Groton Historical Society has been a great resource for learning about the history of the house and the town. We visited the historical society during their Late Summer open house, and met Historical Society President Deborah Jurist. We learned that ours is the only brick house in town- with a granite foundation, to boot! She also shared with us the file they have on our house, as well as pointed out the painting of the house that is part of their collection. 
+
+The painting shifted our perspective of the property and the buildings on it. Prior to seeing the painting we thought that the garage and white house were 20th century additions. Knowing that the barn and white house are of the same era as the Brick house changes how we will move forward with using the spaces and the preservation/ restoration of the property. 
+
 
