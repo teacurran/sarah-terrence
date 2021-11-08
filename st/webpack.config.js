@@ -7,7 +7,7 @@ module.exports = {
         main: path.join(__dirname, 'js', 'main'),
     },
     output: {
-        path: path.resolve(__dirname, '_site', 'js'),
+        path: path.resolve(__dirname, 'js'),
         filename: '[name]-bundle.js',
     },
     resolve: {

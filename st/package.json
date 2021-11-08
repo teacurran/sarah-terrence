@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "fluidbox": "^2.0.5",
     "turbolinks": "^5.2.0",
     "yarn": "^1.22.17"
   },
