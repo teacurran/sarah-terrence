@@ -36,4 +36,4 @@ gem "webrick", "~> 1.7"
 gem 'jekyll-google-photos', git: 'https://github.com/teacurran/jekyll-google-photos'
 gem "nokogiri"
 gem "open-uri"
-gem 'jekyll-gallery-generator'
+gem 'jekyll-gallery-generator', git: 'https://github.com/teacurran/jekyll-gallery-generator.git'
