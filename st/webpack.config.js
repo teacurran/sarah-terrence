@@ -3,6 +3,9 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 // https://webpack.js.org/configuration/
 module.exports = {
+    externals: {
+        jquery: 'jQuery',
+    },
     entry: {
         main: path.join(__dirname, 'js', 'main'),
     },
@@ -27,7 +30,7 @@ module.exports = {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
             {
-                test: /\.scss$/,
+                test: /\.s[ac]ss$/i,
                 use: [
                     {
                         loader: 'css-loader',
