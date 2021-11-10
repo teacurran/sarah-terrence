@@ -8,8 +8,12 @@ variable "environment" {
 
 variable "domain_name" {
   type        = string
-  description = "The domain name for the website."
   default     = "mostlycats.pizza"
+}
+
+variable "domain_name_2" {
+  type        = string
+  default     = "mostlycats.org"
 }
 
 variable "bucket_name" {
