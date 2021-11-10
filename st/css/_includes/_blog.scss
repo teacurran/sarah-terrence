@@ -26,6 +26,12 @@
 
 	margin-top: 40px;
 
+	@include mq(phonel) {
+		margin-top: 30px;
+		margin-left: 0;
+		padding: 30px;
+	}
+
 	@include mq(tabletp) {
 		margin-top: 30px;
 	}

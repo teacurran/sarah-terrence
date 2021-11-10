@@ -1871,6 +1871,11 @@ section {
 .blog-post {
   padding: 10px 0 20px 50px;
   margin-top: 40px; }
+  @media only screen and (min-width: 321px) {
+    .blog-post {
+      margin-top: 30px;
+      margin-left: 0;
+      padding: 30px; } }
   @media only screen and (min-width: 768px) {
     .blog-post {
       margin-top: 30px; } }
