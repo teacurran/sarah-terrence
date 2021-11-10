@@ -2,3 +2,5 @@
 /themes/
 /infrastructure/.terraform/
 /infrastructure/.terraform.lock.hcl
+
+.DS_Store

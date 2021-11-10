@@ -1,5 +1,5 @@
 # Cloudfront distribution for main s3 site.
-resource "aws_cloudfront_distribution" "dot_pizza-www" {
+resource "aws_cloudfront_distribution" "www_s3_distribution" {
   origin {
     domain_name = aws_s3_bucket.www_bucket.website_endpoint
     origin_id   = "S3-www.${var.bucket_name}"
@@ -52,7 +52,7 @@ resource "aws_cloudfront_distribution" "dot_pizza-www" {
   }
 
   viewer_certificate {
-    acm_certificate_arn      = aws_acm_certificate_validation.dot_pizza.certificate_arn
+    acm_certificate_arn      = aws_acm_certificate_validation.cert_validation.certificate_arn
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.1_2016"
   }
@@ -61,7 +61,7 @@ resource "aws_cloudfront_distribution" "dot_pizza-www" {
 }
 
 # Cloudfront S3 for redirect to www.
-resource "aws_cloudfront_distribution" "dot_pizza-redirect" {
+resource "aws_cloudfront_distribution" "root_s3_distribution" {
   origin {
     domain_name = aws_s3_bucket.root_bucket.website_endpoint
     origin_id   = "S3-.${var.bucket_name}"
@@ -106,7 +106,7 @@ resource "aws_cloudfront_distribution" "dot_pizza-redirect" {
   }
 
   viewer_certificate {
-    acm_certificate_arn      = aws_acm_certificate_validation.dot_pizza.certificate_arn
+    acm_certificate_arn      = aws_acm_certificate_validation.cert_validation.certificate_arn
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.1_2016"
   }
