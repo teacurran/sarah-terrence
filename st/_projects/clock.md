@@ -12,5 +12,4 @@ We're excited to dive into [this](https://www.ibm.com/ibm/history/exhibits/cc/cc
     </a>
 </div>
 
-This text should go around the clock
 
