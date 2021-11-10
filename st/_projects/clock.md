@@ -1,7 +1,7 @@
 ---
 title: 'Clock'
 subtitle: 'Repair of 1946 IBM Clock'
-date: 2018-06-30 00:00:00
+date: 2021-11-10 00:00:00
 featured_image: '/images/bg_clockbw1.jpg'
 ---
 
