@@ -276,14 +276,14 @@ html, body {
 
 body {
   background: #FFFFFF;
-  font-family: "Helvetica, sans-serif";
+  font-family: Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
   color: #6C7A89; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica, sans-serif";
+  font-family: Helvetica, sans-serif;
   color: #2A2F36; }
   h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0; }
@@ -391,7 +391,7 @@ ul, ol {
 
 blockquote {
   margin-top: 15px;
-  font-family: "Helvetica, sans-serif";
+  font-family: Helvetica, sans-serif;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -769,7 +769,7 @@ section {
   height: auto; }
 
 .header__title {
-  font-family: "Helvetica, sans-serif";
+  font-family: Helvetica, sans-serif;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0em;
@@ -788,7 +788,7 @@ section {
 
 .header__tagline {
   margin-top: 10px;
-  font-family: "Helvetica, sans-serif";
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0em;
@@ -1008,6 +1008,17 @@ section {
 .disqus_thread {
   padding: 300px 20px 0 20px; }
 
+.fluidbox {
+  margin: 5%; }
+  .fluidbox.left {
+    float: left; }
+  .fluidbox.right {
+    float: right; }
+  .fluidbox.small {
+    max-width: 30%;
+    height: auto;
+    width: auto; }
+
 .intro {
   margin-top: 0;
   padding: 20px 0 0; }
@@ -1038,17 +1049,17 @@ section {
 
 .single {
   margin-top: 0; }
-  .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol {
+  .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol, .single .content {
     margin-left: auto;
     margin-right: auto; }
     @media only screen and (min-width: 1024px) {
-      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol {
+      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol, .single .content {
         max-width: 80%; } }
     @media only screen and (min-width: 1220px) {
-      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol {
+      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol, .single .content {
         max-width: 80%; } }
     @media only screen and (min-width: 1600px) {
-      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol {
+      .single h1, .single h2, .single h3, .single h4, .single h5, .single h6, .single p, .single ul, .single ol, .single .content {
         max-width: 80%; } }
   .single ul ul, .single ul ol, .single ol ul, .single ol ol {
     max-width: 100%;

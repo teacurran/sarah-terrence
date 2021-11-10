@@ -5,7 +5,7 @@ require('fluidbox/src/css/_fluidbox.scss');
 
 import 'fluidbox'
 
-require('imagesloaded')
+require('imagesloaded');
 
 var $ = require('jquery');
 var jQueryBridget = require('jquery-bridget');
@@ -17,11 +17,14 @@ jQueryBridget( 'masonry', Masonry, $ );
 
 // import './plugins/history'
 // import './plugins/imagesloaded'
-// import './plugins/debounce'
+//import './plugins/debounce'
+
 // import './plugins/owl'
 // import './plugins/waypoints'
 
-import './jquery.ba-throttle-debounce.min'
+//require('./jquery.ba-throttle-debounce.min');
+//import './jquery.ba-throttle-debounce.min';
+
 //import './journal'
 
 (function ($) {
@@ -42,6 +45,10 @@ import './jquery.ba-throttle-debounce.min'
 
                 // Hide the menu
                 $('body').removeClass('menu--open');
+            });
+
+            $('.fluidbox').each(function () {
+                $(this).fluidbox();
             });
 
             // If there's a gallery
@@ -210,6 +217,28 @@ import './jquery.ba-throttle-debounce.min'
 
         // Run functions on load
         pageFunctions();
+
+        $(document).on('click', '.js-menu-toggle', function () {
+
+            // If already open
+            if ($('body').hasClass('menu--open')) {
+                $('body').removeClass('menu--open');
+            }
+
+            // If not open
+            else {
+                $('body').addClass('menu--open');
+            }
+        });
+
+        $(document).on('click', '.menu__list__item__link', function () {
+
+            // If menu is open when you click a link on mobile
+            if ($('.menu').hasClass('menu--open')) {
+                $('.menu').removeClass('menu--open');
+            }
+        });
+
 
     });
 
