@@ -8,14 +8,18 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Responsive
 // Usage: @include mq(tabletp) {}
 
-$break-phonel: 480px;
+$break-phonep: 320px;
+$break-phonel: 321px;
 $break-tabletp: 768px;
 $break-tabletl: 1024px;
 $break-laptop: 1220px;
 $break-desktop: 1600px;
 
 @mixin mq($media) {
-	@if $media == phonel {
+    @if $media == phonep {
+      @media only screen and (min-width: $break-phonep) { @content; }
+    }
+	@else if $media == phonel {
 		@media only screen and (min-width: $break-phonel) { @content; }
 	}
 	@else if $media == tabletp {

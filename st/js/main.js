@@ -48,7 +48,7 @@ jQueryBridget( 'masonry', Masonry, $ );
             });
 
             $('.fluidbox').each(function () {
-                $(this).fluidbox();
+                $(this).fluidbox({loader: true});
             });
 
             // If there's a gallery
@@ -69,14 +69,14 @@ jQueryBridget( 'masonry', Masonry, $ );
                 $this.append('<div class="gallery__wrap"></div>');
 
                 // Add images to container
-                $this.children('img').each(function () {
+                $this.children('a').each(function () {
                     $(this).appendTo('#' + thisId + ' .gallery__wrap');
                 });
 
                 // Wrap images
-                $this.find('.gallery__wrap img').each(function () {
-                    var imageSrc = $(this).attr('src');
-                    $(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="gallery__item__link"></div></div>').appendTo();
+                $this.find('.gallery__wrap a').each(function () {
+                    $(this).addClass("gallery__item__link")
+                    $(this).wrapAll('<div class="gallery__item"/>').appendTo();
                 });
 
                 // Wait for images to load
