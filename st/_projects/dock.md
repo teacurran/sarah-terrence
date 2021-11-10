@@ -2,10 +2,10 @@
 title: 'Dock'
 subtitle: 'Building a dock for the pond'
 date: 2018-06-30 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/bg_dock.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/bg_pond.heic)
 
 ## Repair of 1946 IBM Clock
 
