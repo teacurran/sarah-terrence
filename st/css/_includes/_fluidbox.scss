@@ -1,0 +1,18 @@
+.fluidbox {
+  margin: 5%;
+
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
+  }
+
+  &.small {
+    max-width: 30%;
+    height: auto;
+    width: auto;
+  }
+
+}
