@@ -8,7 +8,7 @@ layout: page
 ---
 The property is 42 acres, primarily wooded with about 2 acres flat around the house. 
 
-One of the main Pros/Cons of this house is the location and proximity to 302. The house is situated at the lowest/ flattest part of the property, and is just about 50 feet from the main road. This makes it a prime location for a road-side farm stand. 
+One of the main pros (and also cons) of this house is the location and proximity to [US Route 302](https://en.wikipedia.org/wiki/U.S._Route_302). The house is situated at the lowest/ flattest part of the property, and is just about 50 feet from the main road. This makes it a prime location for a road-side farm stand. 
 
 One of the previous owners (Dr. Page, I believe) was an avid gardener, and the yard has beautiful lilacs, hydrangea, day lilies, peonies, roses, and hostas. The flower beds need some tending, but I look forward to reviving them and planting a kitchen garden, cutting garden, and also adding some perennial shrubs, flowers, and grasses to the hillsides surrounding the house. 
 
