@@ -48,7 +48,7 @@ jQueryBridget( 'masonry', Masonry, $ );
             });
 
             $('.fluidbox').each(function () {
-                $(this).fluidbox();
+                $(this).fluidbox({loader: true});
             });
 
             // If there's a gallery
