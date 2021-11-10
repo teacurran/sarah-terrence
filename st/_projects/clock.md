@@ -5,3 +5,12 @@ date: 2021-11-10 00:00:00
 featured_image: '/images/bg_clockbw1.jpg'
 ---
 We're excited to dive into [this](https://www.ibm.com/ibm/history/exhibits/cc/cc_room.html).
+
+<div class="content">
+    <a href="/photos/clock/Clock.jpg" class="fluidbox left small">
+        <img src="/photos/clock/thumbs/Clock.jpg" />
+    </a>
+</div>
+
+This text should go around the clock
+
