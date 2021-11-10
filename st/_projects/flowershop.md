@@ -2,7 +2,7 @@
 title: 'The Flower Shop'
 subtitle: 'Planting seeds'
 date: 2021-11-06 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/bg_flowership.png' 
 ---
 
 ![](/images/demo/demo-landscape.jpg)
