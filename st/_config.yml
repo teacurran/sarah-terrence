@@ -1,6 +1,6 @@
 site: Mostly Cats
 
-url: 
+url: https://www.mostlycats.org
 baseurl: 
 
 collections:
@@ -57,6 +57,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-google-photos
+  - jekyll-minifier
 
 paginate: 6
 paginate_path: "/blog/page:num/"

@@ -47,6 +47,9 @@ jQueryBridget( 'masonry', Masonry, $ );
                 $('body').removeClass('menu--open');
             });
 
+            // open external links in new window
+            $("a[href^='http']").attr('target','_blank');
+
             $('.fluidbox').each(function () {
                 $(this).fluidbox({loader: true});
             });
