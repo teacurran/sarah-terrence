@@ -49,10 +49,17 @@
 	@include mq(tabletl) {
 
 		&:hover {
-
 			.portfolio-item__content {
 				opacity: 1;
 				visibility: visible;
+				background: rgba($overlay-background-color, $overlay-opacity);
+			}
+
+			.portfolio-item__title {
+				color: $accent-color;
+			}
+			.portfolio-item__subtitle {
+				color: $accent-color;
 			}
 		}
 	}
@@ -77,10 +84,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
 
-	opacity: 0;
-	visibility: hidden;
+	//opacity: 0;
+	//visibility: hidden;
 	@include transition(all 0.2s ease-in-out);
 }
 
@@ -90,9 +96,11 @@
 
 .portfolio-item__title {
 	color: $overlay-text-color;
+	background-color: $overlay-text-bg-color;
 }
 
 .portfolio-item__subtitle {
 	margin-top: 5px;
 	color: rgba($overlay-text-color, 0.7);
+	background-color: $overlay-text-bg-color;
 }

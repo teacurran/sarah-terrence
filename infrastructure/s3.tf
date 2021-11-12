@@ -27,7 +27,7 @@ resource "aws_s3_bucket" "root_bucket" {
   acl    = "public-read"
 
   website {
-    redirect_all_requests_to = "https://www.${var.domain_name}"
+    redirect_all_requests_to = "https://www.${var.domain_name_2}"
   }
 
   tags = var.common_tags
