@@ -1819,9 +1819,9 @@ section {
       visibility: visible;
       background: rgba(22, 27, 33, 0.7); }
     .portfolio-item__link:hover .portfolio-item__title {
-      color: #f0b4fc; }
+      color: #A2DED0; }
     .portfolio-item__link:hover .portfolio-item__subtitle {
-      color: #f0b4fc; } }
+      color: #A2DED0; } }
 
 .portfolio-item__image {
   display: block;

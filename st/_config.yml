@@ -1,5 +1,6 @@
 site: Mostly Cats
 
+title: Mostly Cats
 url: https://www.mostlycats.org
 baseurl: 
 
@@ -103,3 +104,6 @@ jekyll-minifier:
   preserve_line_breaks: false       # Default: false
   simple_boolean_attributes: false  # Default: false
   compress_js_templates: true      # Default: false
+
+feed:
+  posts_limit: 20
