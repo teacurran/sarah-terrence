@@ -23,4 +23,16 @@ The Groton Historical Society has been a great resource for learning about the h
 
 The painting shifted our perspective of the property and the buildings on it. Prior to seeing the painting we thought that the garage and white house were 20th century additions. Knowing that the barn and white house are of the same era as the Brick house changes how we will move forward with using the spaces and the preservation/ restoration of the property. 
 
-
+<div class="gallery" data-columns="3">
+{% for p in site.pages %}
+  {% for gallery in p.galleries %}
+    {% if gallery['gallery'] == "house" %}
+      {% for image in gallery.images %}
+        <a href="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/{{ image.src }}">
+            <img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
+        </a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
