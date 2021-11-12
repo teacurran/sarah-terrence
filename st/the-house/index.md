@@ -19,7 +19,7 @@ We’ve made ourselves quite cozy in the brick house. There are a few big projec
 
 The barn and white house will require some structural work, with the white house needing major interior renovations (been abandoned for quite some time). Parts of the barn have been converted into interior living space- and so there’s also some challenges with the heating system (currently oil).  
 
-The Groton Historical Society has been a great resource for learning about the history of the house and the town. We visited the historical society during their Late Summer open house, and met Historical Society President Deborah Jurist. We learned that ours is the only brick house in town- with a granite foundation, to boot! She also shared with us the file they have on our house, as well as pointed out the painting of the house that is part of their collection. 
+The Groton Historical Society has been a great resource for learning about the history of the house and the town. We visited the historical society during their Late Summer open house, and met the Historical Society President Deborah Jurist. We learned that ours is the only brick house in town- with a granite foundation, to boot! [She shared with us the file they have on our house](/docs/the_brick_house_of_groton.pdf)), as well as pointed out the painting of the house that is part of their collection. 
 
 The painting shifted our perspective of the property and the buildings on it. Prior to seeing the painting we thought that the garage and white house were 20th century additions. Knowing that the barn and white house are of the same era as the Brick house changes how we will move forward with using the spaces and the preservation/ restoration of the property. 
 
