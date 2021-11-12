@@ -11,7 +11,7 @@ layout: page
 
 Terrence began looking at properties the summer of 2020, and on January 6th, 2021 closed on this property in Vermont. 
 
-The property has 3 distinct buildings: The brick house, the white house, and the barn, which joins the two buildings. 
+The property has 3 distinct but connected buildings: The brick house, the white house, and the barn, which joins the two. 
 
 The brick house was built by John Taisey in 1840, the barn shortly thereafter. The white house was built by John’s son, George, in 1881. 
 
