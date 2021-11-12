@@ -22,7 +22,7 @@ To the left of the house there is another access driveway that leads up to a san
     </a>
 </div>
 
-Terrence and I have been hiking nearly every day, and have been scouting and mapping the property- working on trail maintenance, trash removal/ cleanup and marking trails. Thus far, we’ve counted 50+ apple trees. Based on the density and planting patterns it seems likely that the property was mostly clear cut with pasture and apple trees all the way to the neighboring property- with apple trees lining what were once roads/ trails. We’ve hired Todd Parlo from [Waldon Heights Orchards](https://waldenheightsnursery.com/) as a mentor. See [the detailed](/docs/SiteReport_2021.pdf) property report for specifics on the soil type, elevation and more. 
+Terrence and I have been hiking nearly every day, and have been scouting and mapping the property- working on trail maintenance, trash removal/ cleanup and marking trails. Thus far, we’ve counted 50+ apple trees. Based on the density and planting patterns it seems likely that the property was mostly clear cut with pasture and apple trees all the way to the neighboring property- with apple trees lining what were once roads/ trails. We’ve hired Todd Parlo from [Waldon Heights Orchards](https://waldenheightsnursery.com/) as a mentor, and he's prepared a report with specifics on the soil type, elevation, and recommendations for pruning and restoring the health/productivity of the trees.  
 
 Terrence mapped the tap lines- seems like there are about 150 total trees tapped in the south east and central portion of the property. We'll write more about this project as it develops. 
 <div class="gallery" data-columns="3">
