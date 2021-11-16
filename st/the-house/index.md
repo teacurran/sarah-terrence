@@ -28,8 +28,10 @@ The painting shifted our perspective of the property and the buildings on it. Pr
   {% for gallery in p.galleries %}
     {% if gallery['gallery'] == "house" %}
       {% for image in gallery.images %}
-        <a href="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/{{ image.src }}">
-            <img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
+        <a href="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/{{ image.src }}"
+            data-pswp-width="{{ image.exif.width }}" 
+            data-pswp-height="{{ image.exif.height }}"
+            ><img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
         </a>
       {% endfor %}
     {% endif %}
