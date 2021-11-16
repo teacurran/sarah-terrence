@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/teacurran/jekyll-gallery-generator.git
-  revision: e8f8c1d418d4193469145d5ea8aa1e19c9255231
+  revision: 74c958401b8ebff9573f963862a42d82d3ae5388
   specs:
     jekyll-gallery-generator (1.2.3)
       exifr (~> 1.3)
