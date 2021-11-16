@@ -3,6 +3,10 @@ import Turbolinks from 'turbolinks';
 require('../css/style.scss');
 require('fluidbox/src/css/_fluidbox.scss');
 
+require('photoswipe/dist/photoswipe.esm');
+
+import 'photoswipe/src/photoswipe.css';
+
 import 'fluidbox'
 
 require('imagesloaded');
@@ -167,14 +171,28 @@ jQueryBridget( 'masonry', Masonry, $ );
                         });
 
                         // Init fluidbox
-                        $this.find('.gallery__item__link').fluidbox({
-                            loader: true
-                        });
+                        // $this.find('.gallery__item__link').fluidbox({
+                        //     loader: true
+                        // });
 
                     }
 
                     // Show gallery once initialized
                     $this.addClass('gallery--on');
+
+                    const lightbox = new PhotoSwipeLightbox({
+                        // may select multiple "galleries"
+                        gallery: '#' + thisId,
+
+                        // Elements within gallery (slides)
+                        children: 'a',
+
+                        // Include PhotoSwipe Core
+                        // and use absolute path (that starts with http(s)://)
+                        pswpModule: '/v5/photoswipe/photoswipe.esm.js'
+                    });
+                    lightbox.init();
+
                 });
 
             });

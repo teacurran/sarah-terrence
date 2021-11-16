@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "fluidbox": "^2.0.5",
+    "photoswipe": "git://github.com/dimsemenov/photoswipe#v5-beta",
     "turbolinks": "^5.2.0",
     "yarn": "^1.22.17"
   },

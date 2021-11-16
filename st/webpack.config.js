@@ -35,6 +35,20 @@ module.exports = {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
             {
+                test: /\.css$/i,
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1, // https://webpack.js.org/loaders/postcss-loader/
+                        },
+                    },
+                ],
+            },
+            {
                 test: /\.s[ac]ss$/i,
                 use: [
                     {
