@@ -3,7 +3,8 @@ import Turbolinks from 'turbolinks';
 require('../css/style.scss');
 require('fluidbox/src/css/_fluidbox.scss');
 
-require('photoswipe/dist/photoswipe.esm');
+import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm';
+import PhotoSwipe from 'photoswipe/dist/photoswipe.esm';
 
 import 'photoswipe/src/photoswipe.css';
 
@@ -72,7 +73,7 @@ jQueryBridget( 'masonry', Masonry, $ );
                 // Gallery columns
                 var galleryCols = $this.attr('data-columns');
 
-                // Set up gallery container
+                // // Set up gallery container
                 $this.append('<div class="gallery__wrap"></div>');
 
                 // Add images to container
@@ -180,16 +181,14 @@ jQueryBridget( 'masonry', Masonry, $ );
                     // Show gallery once initialized
                     $this.addClass('gallery--on');
 
+
                     const lightbox = new PhotoSwipeLightbox({
-                        // may select multiple "galleries"
                         gallery: '#' + thisId,
-
-                        // Elements within gallery (slides)
                         children: 'a',
-
-                        // Include PhotoSwipe Core
-                        // and use absolute path (that starts with http(s)://)
-                        pswpModule: '/v5/photoswipe/photoswipe.esm.js'
+                        initialZoomLevel: 'fit',
+                        imageClickAction: 'close',
+                        tapAction: 'close',
+                        pswpModule: PhotoSwipe
                     });
                     lightbox.init();
 
