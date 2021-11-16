@@ -37,7 +37,7 @@ jobs:
           bundle install --jobs 4 --retry 3
         working-directory: ./st
       - name: "Build Site"
-        run: bundle exec jekyll build --vm.Xmn256m --vm.Xmx3g
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
         working-directory: ./st
