@@ -17,6 +17,7 @@ We were married October 22, 2021 at the City Hall in Providence, Rhode Island. T
             data-pswp-width="{{ image.display_dimensions.width }}" 
             data-pswp-height="{{ image.display_dimensions.height }}"
             ><img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
+{{ image }}
         </a>
       {% endfor %}
     {% endif %}
