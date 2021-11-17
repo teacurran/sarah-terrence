@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // https://webpack.js.org/configuration/
 module.exports = {
     plugins: [new MiniCssExtractPlugin({
-            filename: '../css/[name]-bundle.css'
+            filename: '../css/[name]-[contenthash].css'
         }
     )],
     externals: {
@@ -16,7 +16,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'js'),
-        filename: '[name]-bundle.js',
+        filename: '[name]-[contenthash].js',
     },
     resolve: {
         extensions: ['.json', '.js', '.jsx'],
