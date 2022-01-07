@@ -31,8 +31,10 @@ Terrence mapped the tap lines- seems like there are about 150 total trees tapped
   {% for gallery in p.galleries %}
     {% if gallery['gallery'] == "homestead" %}
       {% for image in gallery.images %}
-        <a href="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/{{ image.src }}">
-            <img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
+        <a href="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/{{ image.src }}"
+          data-pswp-width="{{ image.display_dimensions.width }}"
+          data-pswp-height="{{ image.display_dimensions.height }}"
+          ><img src="/{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ image.src }}" />
         </a>
       {% endfor %}
     {% endif %}
