@@ -161,7 +161,7 @@ data "aws_iam_policy_document" "beta_bucket" {
 }
 
 resource "aws_s3_bucket_policy" "beta_bucket" {
-  bucket = aws_s3_bucket.beta_bucket.id
-  policy = data.aws_iam_policy_document.www_bucket.json
+  bucket = aws_s3_bucket.beta_bucket.bucket
+  policy = data.aws_iam_policy_document.beta_bucket.json
 }
 
