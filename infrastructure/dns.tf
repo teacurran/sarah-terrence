@@ -83,14 +83,26 @@ resource "aws_route53_record" "dot_org-www-a" {
   }
 }
 
+resource "aws_route53_record" "beta-www-a" {
+  zone_id = aws_route53_zone.dot_org.zone_id
+  name    = "beta.${var.domain_name_2}"
+  type    = "A"
+
+  alias {
+    name                   = aws_cloudfront_distribution.dot_org-beta.domain_name
+    zone_id                = aws_cloudfront_distribution.dot_org-beta.hosted_zone_id
+    evaluate_target_health = false
+  }
+}
+
 resource "aws_route53_record" "dot_org-cert_validation" {
   for_each = {
-  for dvo in aws_acm_certificate.dot_org.domain_validation_options : dvo.domain_name => {
-    name    = dvo.resource_record_name
-    record  = dvo.resource_record_value
-    type    = dvo.resource_record_type
-    zone_id = aws_route53_zone.dot_org.zone_id
-  }
+    for dvo in aws_acm_certificate.dot_org.domain_validation_options : dvo.domain_name => {
+      name    = dvo.resource_record_name
+      record  = dvo.resource_record_value
+      type    = dvo.resource_record_type
+      zone_id = aws_route53_zone.dot_org.zone_id
+    }
   }
 
   allow_overwrite = true

@@ -104,3 +104,64 @@ resource "aws_s3_bucket_policy" "root_bucket" {
   bucket = aws_s3_bucket.root_bucket.id
   policy = data.aws_iam_policy_document.root_bucket.json
 }
+
+# beta
+
+resource "aws_s3_bucket" "beta_bucket" {
+  bucket = "beta.${var.bucket_name}"
+
+  tags = var.common_tags
+}
+
+resource "aws_s3_bucket_acl" "beta_bucket" {
+  bucket = aws_s3_bucket.beta_bucket.bucket
+  acl = "public-read"
+}
+
+resource "aws_s3_bucket_website_configuration" "beta_bucket" {
+  bucket = aws_s3_bucket.beta_bucket.bucket
+
+  index_document {
+    suffix = "index.html"
+  }
+
+  error_document {
+    key = "404.html"
+  }
+}
+
+resource "aws_s3_bucket_cors_configuration" "beta_bucket" {
+  bucket = aws_s3_bucket.beta_bucket.bucket
+
+  cors_rule {
+    allowed_headers = ["Authorization", "Content-Length"]
+    allowed_methods = ["GET", "POST"]
+    allowed_origins = ["https://beta.${var.domain_name}"]
+    max_age_seconds = 3000
+  }
+}
+
+data "aws_iam_policy_document" "beta_bucket" {
+  statement {
+    sid = "${var.site}-beta-policy"
+    effect = "Allow"
+    actions = [
+      "s3:GetObject"
+    ]
+    resources = [
+      "arn:aws:s3:::beta.${var.bucket_name}/*"
+    ]
+    principals {
+      identifiers = [
+        "*"
+      ]
+      type = "AWS"
+    }
+  }
+}
+
+resource "aws_s3_bucket_policy" "beta_bucket" {
+  bucket = aws_s3_bucket.beta_bucket.id
+  policy = data.aws_iam_policy_document.www_bucket.json
+}
+
