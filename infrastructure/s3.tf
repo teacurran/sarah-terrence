@@ -4,7 +4,29 @@ locals {
 
 resource "aws_s3_bucket" "www_bucket" {
   bucket = "www.${local.bucket_name}"
-  acl    = "public-read"
+
+  tags = var.common_tags
+}
+
+resource "aws_s3_bucket_acl" "www_bucket" {
+  bucket = aws_s3_bucket.www_bucket.bucket
+  acl = "public-read"
+}
+
+resource "aws_s3_bucket_website_configuration" "www_bucket" {
+  bucket = aws_s3_bucket.www_bucket.bucket
+
+  index_document {
+    suffix = "index.html"
+  }
+
+  error_document {
+    key = "404.html"
+  }
+}
+
+resource "aws_s3_bucket_cors_configuration" "www_bucket" {
+  bucket = aws_s3_bucket.www_bucket.bucket
 
   cors_rule {
     allowed_headers = ["Authorization", "Content-Length"]
@@ -12,25 +34,26 @@ resource "aws_s3_bucket" "www_bucket" {
     allowed_origins = ["https://www.${var.domain_name}"]
     max_age_seconds = 3000
   }
-
-  website {
-    index_document = "index.html"
-    error_document = "404.html"
-  }
-
-  tags = var.common_tags
 }
 
 # S3 bucket for redirecting non-www to www.
 resource "aws_s3_bucket" "root_bucket" {
   bucket = local.bucket_name
-  acl    = "public-read"
-
-  website {
-    redirect_all_requests_to = "https://www.${var.domain_name_2}"
-  }
 
   tags = var.common_tags
+}
+
+resource "aws_s3_bucket_acl" "root_bucket" {
+  bucket = aws_s3_bucket.root_bucket.bucket
+  acl = "public-read"
+}
+
+resource "aws_s3_bucket_website_configuration" "root_bucket" {
+  bucket = aws_s3_bucket.root_bucket.bucket
+  redirect_all_requests_to {
+    protocol = "https"
+    host_name = "www.${var.domain_name_2}"
+  }
 }
 
 data "aws_iam_policy_document" "www_bucket" {
