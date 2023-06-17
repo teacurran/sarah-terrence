@@ -4,3 +4,4 @@ bucket_name = "mostlycats.pizza"
 common_tags = {
   Project = "mostlycats.pizza"
 }
+git

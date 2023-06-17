@@ -1,3 +1,16 @@
-brew install imagemagick rbenv
+# Building the site:
+==================
 
-gem install rmagick exifr
+## prerequisites
+```
+brew install imagemagick openssl
+```
+
+## install
+```
+bundle config build.eventmachine --with-cppflags=-I$(brew --prefix openssl)/include
+bundle install
+```
+
+
+

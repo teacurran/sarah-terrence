@@ -32,9 +32,11 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
-gem "webrick", "~> 1.7"
+gem 'webrick', '~> 1.7'
 gem 'jekyll-google-photos', git: 'https://github.com/teacurran/jekyll-google-photos'
-gem "nokogiri"
-gem "open-uri"
+gem 'nokogiri'
+gem 'open-uri'
 gem 'jekyll-gallery-generator', git: 'https://github.com/teacurran/jekyll-gallery-generator.git'
-gem "jekyll-minifier", "~> 0.1.10"
+gem 'jekyll-minifier', '~> 0.1.10'
+gem 'rmagick'
+gem 'exifr'
